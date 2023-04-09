@@ -215,6 +215,20 @@ figcaption{
     width: 90px;
     fill: #5336ca;
 }
+#orbitalTraining .Odyssey_rounded_image
+{
+  width:200px;
+  height:200px;
+  margin:2%;
+}
+#orbitalTraining
+{
+  padding:2% 5%;
+}
+#orbitalTraining .threeFourthGrid{
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
 @media screen and (max-width:1150px) {
   #spaceBanner {
       display: block;
@@ -232,5 +246,12 @@ figcaption{
   }
   #classes{
     margin:5% 0%;
+  }
+  #orbitalTraining .Odyssey_rounded_image
+  {
+    width:250px;
+    height:250px;
+    margin:auto;
+    margin-left:20%;
   }
 }
