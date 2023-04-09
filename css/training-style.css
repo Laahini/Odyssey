@@ -1,3 +1,12 @@
+#spaceBanner
+{
+  display: block;
+  width: 100%;
+  height: 95vh;
+  object-fit: cover;
+  object-position: 100% 0%;
+
+}
 h1{
     text-align: center;
 }
@@ -35,7 +44,7 @@ figcaption{
     background-color: #ff8248;
     color:white;
 }
- 
+
 #btn:hover{
     background-color:#ff6647;
     color:white;
@@ -86,14 +95,142 @@ figcaption{
     padding-top: 1%;
     border-bottom: 1px solid #999999;
 }
-.image_text {
-    top: 57%;
-    transform: translateY(-50%);
-}
 #top_pic {
     display: block;
     width: 100%;
     height: 95vh;
     object-fit: cover;
     object-position: 100% 0%;
+}
+.image_text {
+    font-family: 'Kanit', sans-serif;
+    border-radius: 50px;
+    transform: translateY(-75%);
+}
+.lead{
+  padding-left:10%;
+  padding-right: 10%;
+  font-size: 18px;
+}
+.display-2
+{
+  font-family: 'Kanit', sans-serif;
+  font-size: 50px;
+  margin-top:0%;
+}
+#howWork
+{
+  background:#EEEEEE;
+  color: rgb(6, 17, 60);
+  padding:1% 3%;
+  padding-bottom:2%;
+  border-radius: 50px;
+}
+#classes
+{
+  background:#EEEEEE;
+  color: rgb(6, 17, 60);
+  padding:2% 3%;
+  padding-bottom: 3%;
+  border-radius: 10px;
+  margin-bottom:2%;
+}
+
+
+
+#Ptable
+{
+  padding: 5% 0%;
+}
+.main {
+    font-family: "Open Sans";
+    width: 1170px;
+    margin: 0 auto;
+}
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0 none;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(6, 17, 60);
+}
+.price-table tr:not(:last-child) {
+    border-bottom: 1px solid white;
+}
+.price-table tr td {
+    border-left: 1px solid white;
+    padding: 8px 24px;
+    font-size: 14px;
+}
+.price-table tr td:first-child {
+    border-left: 0 none;
+}
+.price-table tr td:not(:first-child) {
+    text-align: center;
+}
+
+.price-table .fa-check {
+    color: rgb(255, 140, 50);
+}
+.price-table .fa-times {
+    color: rgb(255, 140, 50);
+}
+
+.price-table tr.price-table-head td {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+}
+.price-table tr.price-table-head {
+    background-color: rgb(255, 140, 50);
+    color: #FFFFFF;
+}
+.price-table td.price {
+    color: #f43f54;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Montserrat";
+}
+.price-table td.price a {
+    background-color: #5336ca;
+    color: #FFFFFF;
+    padding: 12px 32px;
+    margin-top: 16px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 64px;
+}
+.price-table .price-blank {
+    background-color: #EEEEEE;
+    border: 0 none;
+}
+
+.price-table svg {
+    width: 90px;
+    fill: #5336ca;
+}
+@media screen and (max-width:1150px) {
+  #spaceBanner {
+      display: block;
+      width: 100%;
+      height: 75vh;
+      object-fit: cover;
+      object-position: 100% 0%;
+  }
+  .image_text {
+      transform: translateY(-25%);
+  }
+  #Ptable
+  {
+    display:none;
+  }
+  #classes{
+    margin:5% 0%;
+  }
 }
