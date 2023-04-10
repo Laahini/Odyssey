@@ -8,13 +8,25 @@
 #border {
     border-bottom: 1px solid #999999;
 }
+#mCont{
+  margin-top:2%;
+}
+.lead{
+  margin:0%;
+}
+#mission{
+  background:#DDDDDD;
+  color: rgb(6, 17, 60);
+  border-radius: 50px;
+  padding:1% 5%;
+}
 #about_block1 {
-    height: 100px;
-    margin: 2.5% 0% 5% 0%;
+    height: 150px;
+    margin: 0%;
 }
 #about_block2 {
-    height: 350px;
-    margin: 5% 0% 2.5% 0%;
+    height: 250px;
+    margin:0%;
 }
 #top_pic {
     display: block;
@@ -44,7 +56,7 @@
   }
   #about_block1 {
       height: 120px;
-      margin: 2.5% 0% 5% 0%;
+      margin: 2.5% 0% 2.5% 0%;
   }
   #about_block2{
     height: 350px;

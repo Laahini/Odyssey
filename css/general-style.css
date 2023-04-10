@@ -128,7 +128,7 @@ body {
     bottom: 0;
     width: 0;
     height: 2px;
-    background-color: aliceblue;
+    background-color: white;
     transition: width 0.25s ease-out;
 }
 .nav-link:hover::before{
@@ -136,7 +136,7 @@ body {
 }
 .btn{
     border-radius: 8px;
-    background-color: #ff8248;
+    background-color: #FF8C32;
     text-align: center;
     text-decoration: none;
     border: none;
@@ -147,6 +147,10 @@ body {
 .btn:hover{
     background:rgb(6, 17, 60);
     color:white;
+}
+nav .btn:hover{
+  background:#EEEEEE;
+  color:rgb(6, 17, 60);
 }
 
   /*Toggle Button Styles*/

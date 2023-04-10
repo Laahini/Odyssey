@@ -11,23 +11,14 @@ body {
 .image_text {
     top: 57%;
     transform: translateY(-50%);
+    font-weight: bolder;
 }
-/*
-#image_text1 {
-    color: #ffbd4a;
-}
-#image_text2 {
-    color: #ff9249;
-}
-#image_text3 {
-    color: #ff6647;
-}
-*/
+
 #start_image {
     position: relative;
 }
 #overview {
-    min-height: 320px;
+    min-height: 300px;
     border-bottom: 2px solid #999999;
 }
 #cost {
@@ -36,23 +27,26 @@ body {
 }
 #dates_and_schedule {
     min-height: 480px;
-    border-bottom: 2px solid #999999;
+    margin-top:2%;
+    background: rgb(238, 238, 238);
+    color:rgb(6, 17, 60);
+    border-radius:50px;
 }
 #tour_stats {
-    min-height: 280px;
+    min-height: 250px;
     border-bottom: 2px solid #999999;
 }
 #tour_register {
-    min-height: 550px;
+    min-height: 450px;
 }
 #stats {
-    height: 180px;
+    height: 134px;
 }
 #stat {
     width: 33.33%;
 }
 .sub_navbar_background {
-    background-color: #414a4c;
+    background-color: #FF8C32;
 }
 .first_sticky {
     position: sticky;
@@ -62,16 +56,15 @@ body {
 }
 .second_sticky {
     position: sticky;
-    top: 50px;
+    top: 60px;
     width: 100%;
     transition: 1s ease position;
 }
 #overview_content {
-    margin-left: 16.5%;
-    margin-right: 16.5%;
+    margin:auto 5%;
 }
 .tour_date {
-    min-height: 330px;
+    height: 330px;
     width: 33.33%;
     float: left;
 }
@@ -81,14 +74,87 @@ body {
 .link_disabled {
     pointer-events: none;
 }
-/*
-#link_disabled1 {
-    color: #ffbd4a;
+.display-6, .display-5
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 35px;
 }
-#link_disabled2 {
-    color: #ff9249;
+.timing{
+  background:rgb(255, 140, 50);
+  border-radius: 50px;
+  padding:5px;
+  color:white;
 }
-#link_disabled3 {
-    color: #ff6647;
+.terms{
+  font-weight: bolder;
+  font-family:'Kanit', sans-serif;
 }
-*/
+.tour_date .threeFourthGrid{
+  grid-column-gap: 0%;
+  padding-right:8%;
+}
+h4{
+  color: #FF8C32;
+  font-family: 'Kanit', sans-serif;
+  line-height: 32px;
+}
+h5{
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+}
+#dates_and_scheduleMobile{
+  display: none;
+}
+@media screen and (max-width:1000px) {
+  .nav-pills, .sub_navbar_background{
+    display:none;
+  }
+  .display-5{
+    margin-bottom:0%;
+    font-weight: bolder;
+    font-family: 'Kanit', sans-serif;
+  }
+  .display-6{
+    margin-bottom:0%;
+    font-size:25px;
+  }
+  #cost {
+      min-height: 90px;
+      border-bottom: 2px solid #999999;
+      margin-bottom:5%;
+  }
+  #stats {
+      height: 100px;
+  }
+  #tour_stats {
+      min-height: 200px;
+  }
+  #dates_and_schedule{
+    display:none;
+  }
+  #dates_and_scheduleMobile{
+    display:block;
+    background:#EEEEEE;
+    margin:auto;
+    color: #06113C;
+    border-radius: 50px;
+    padding:5%;
+  }
+  .tour_date{
+    width:auto;
+    height:auto;
+  }
+  .autoThirdGrid .threeFourthGrid{
+    grid-template-columns: 25% 75%;
+    margin: auto 0%
+  }
+  #tour_register li{
+    font-size:12px;
+    font-weight: 300;
+  }
+  .terms{
+    font-size:12px;
+  }
+
+}

@@ -8,6 +8,12 @@
     border-bottom-left-radius: 40px;
     width: 320px;
 }
+#option_container{
+  margin-bottom:2%;
+}
+#option_container p{
+  color: rgb(6, 17, 60);
+}
 #icon {
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
@@ -19,17 +25,167 @@
 }
 #secondary {
     font-weight: 300;
+    font-size:20px;
 }
 #tour_option1 {
-    background-color: #ffbd4a;
-    border: 2px solid #ffbd4a;
+    background-color: rgb(238, 238, 238);
+    color: rgb(6, 17, 60);
+    border: 2px solid rgb(255, 140, 50);
 }
 #tour_option2 {
-    background-color: #ff9249;
-    border: 2px solid #ff9249;
+    background-color: rgb(238, 238, 238);
+    color: rgb(6, 17, 60);
+    border: 2px solid rgb(255, 140, 50);
 }
 #tour_option3 {
-    background-color: #ff6647;
-    border: 2px solid #ff6647;
+    background-color: rgb(238, 238, 238);
+    color: rgb(6, 17, 60);
+    border: 2px solid rgb(255, 140, 50);
 }
- 
+#planets{
+  height:75vh;
+  margin-top:0%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.opt{
+  padding:5%;
+  padding-bottom:0%;
+}
+.display-1{
+  font-family: 'Kanit', sans-serif;
+  font-size:70px;
+}
+.display-6{
+  font-weight:bolder;
+  color: rgb(6, 17, 60);
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+.cSpecial{
+  margin-left:5%;
+}
+#text_container{
+  margin:5% auto;
+  margin-bottom: 2%;
+}
+.card-circle{
+    text-align:center;
+     margin-top:50px;
+     background:#DDDDDD;
+     border:10px solid transparent;
+     color:rgb(6, 17, 60);
+     Font-family: 'Montserrat';
+     padding:50px;
+     border-radius:50%;
+}
+ .card-circle .card-title{
+    font-weight:600;
+     font-size:26px;
+}
+ .card-circle .card-text{
+    font-weight:400;
+}
+ .card-circle:nth-child(2){
+    background:#EEEEEE;
+}
+ .card-circle .btn{
+    Font-family: Montserrat;
+    background:transparent;
+     border:1px solid rgb(6, 17, 60);
+     text-transform:uppercase;
+     padding:5px 30px;
+     border-radius:10px;
+     Font-weight:600;
+     color:rgb(6, 17, 60);
+}
+.card-circle .btn,.card-circle .card-icon i,.card-circle{
+   transition: all ease-in-out 0.2s;
+}
+ .card-circle:hover .btn{
+    background:rgb(6, 17, 60);
+     color:#fff;
+   border: 1px solid transparent;
+}
+ .card-circle .btn:hover{
+    transform: scale(1.1);
+}
+ .card-circle:hover{
+    border:10px solid rgb(255, 140, 50);
+}
+ .card-circle:hover i {
+   text-shadow: 0px -1px 10px #00A8CC;
+    transform:scale(1.2)rotate(20deg);
+}
+ @media only screen and (min-width: 1200px) {
+     .card-circle:nth-child(3){
+         margin-left:0%;
+         z-index:0;
+    }
+     .card-circle{
+         width:400px;
+         height:400px;
+    }
+     .card-circle:nth-child(2){
+         margin-left:0%;
+         box-shadow: 1px 2px 20px 8px rgba(241, 235, 235, 0.12);
+         transform: scale(1.2);
+         z-index:1;
+    }
+   .card-circle .card-icon i{
+      margin-top: 20px;
+     }
+}
+@media only screen and (max-width: 1200px) {
+   .card-circle{
+         width:300px;
+         height:290px;
+    }
+  .card-circle .card-icon i{
+     font-size:50px;
+   }
+  .card-circle .card-icon i{
+      margin-top: 1%;
+     }
+   .card-circle:nth-child(3){
+         margin:auto;
+         z-index:0;
+         margin-top:2%;
+         margin-bottom:2%;
+    }
+    .card-circle:nth-child(1){
+          margin:auto;
+          margin-top:2%;
+          margin-bottom:2%;
+     }
+   .card-circle:nth-child(2){
+         margin:auto;
+         z-index:1;
+         margin-top:2%;
+         margin-bottom:2%;
+    }
+    #planets{
+      height:135vh;
+    }
+    #tour_option_image {
+        height: 125px;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+        width: 150px;
+    }
+    .display-6{
+      font-size:16px;
+      font-weight: bolder;
+    }
+    .infoP{
+      font-size: 10px;
+    }
+    #icon {
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+        height: 120px;
+    }
+    #option_container{
+      margin-bottom:0%;
+    }
+}

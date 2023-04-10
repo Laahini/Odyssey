@@ -15,6 +15,14 @@
     object-fit: cover;
     object-position: 100% 0%;
 }
+#spacecraft
+{
+  background:rgb(238, 238, 238);
+  color:rgb(6, 17, 60);
+  border-radius:50px;
+  padding-top:1%;
+  margin-top:2%;
+}
 .display-4
 {
   font-family: 'Kanit', sans-serif;
@@ -28,6 +36,7 @@
   font-size: 25px;
   color: rgb(255, 140, 50);
 }
+
 #launchDescrip a
 {
   background-color: #FF8C32;
