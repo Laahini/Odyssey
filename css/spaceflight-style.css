@@ -49,12 +49,20 @@
   font-size: 16px;
 }
 #spaceflight_block1 {
-    height: 300px;
-    margin: 2.5% 0% 2.5% 0%;
+    height: 250px;
+    margin: 2% 0% 2% 0%;
+    background:#EEEEEE;
+    color:rgb(6, 17, 60);
+    padding:5% 1%;
+    border-radius: 50px;
 }
 #spaceflight_block2 {
-    height: 300px;
-    margin: 2.5% 0% 2.5% 0%;
+    height: 250px;
+    margin: 2% 0% 2% 0%;
+    background:#EEEEEE;
+    color:rgb(6, 17, 60);
+    padding:5% 1%;
+    border-radius: 50px;
 }
 .introText{
     text-align: center;
@@ -136,20 +144,29 @@
     .timeline{
         width: 80vw;
     }
-    #spaceflight_block1 p, #spaceflight_block2 p{
-      font-size: 12px;
+    #spaceflight_block1 p{
+      font-size: 9px;
+      margin-bottom: 0%;
+    }
+    #spaceflight_block2 p{
+      font-size: 10px;
+      margin-bottom: 0%;
     }
     .display-5
     {
       font-size: 18px;
     }
     #spaceflight_block1 {
-        height: 320px;
-
+        height: 200px;
+        width:100%;
+        margin-bottom: 3%;
+        padding:2%;
     }
     #spaceflight_block2 {
-        height: 320px;
-
+        height: 200px;
+        width:100%;
+        margin-bottom: 0%;
+        margin-top:0%;
     }
     .timeline .checkpoint{
         width: 100%;
