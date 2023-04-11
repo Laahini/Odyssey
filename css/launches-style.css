@@ -21,7 +21,7 @@
   color:rgb(6, 17, 60);
   border-radius:50px;
   padding-top:1%;
-  margin-top:2%;
+  margin-top:0%;
 }
 .display-4
 {
@@ -41,6 +41,7 @@
 {
   background-color: #FF8C32;
   font-weight: bolder;
+  font-size: 30px;
 }
 #launchDescrip a:hover
 {
@@ -81,21 +82,32 @@
 #launch_tour3_explanation {
     display: none;
 }
-@media screen and (max-width:1000px) {
+@media screen and (max-width:480px) {
   #launchDescrip a
   {
-    height:70px;
-    padding:2% 1%;
+    height:auto;
+    padding:10% 3%;
+    font-size: 14px;
+  }
+  .Odyssey_rounded_image{
+    width:100px;
+    height: 100px;
   }
   h2
   {
-    font-size:20px;
+    font-size:14px;
+  }
+  #spacecraft{
+    padding:3% 5%;
+  }
+  #lcont{
+    margin-top:5%;
   }
   #top_pic
   {
     display: block;
     width: 100%;
-    height: 75vh;
+    height: 50vh;
     object-fit: cover;
     object-position: 100% 0%;
   }

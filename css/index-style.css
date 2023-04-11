@@ -116,12 +116,16 @@
     }
 
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 480px) {
     .carousel img{
         position: static;
     }
     .carousel .carousel-item{
         height: 40%;
+    }
+    .Odyssey_rounded_image{
+      width:120px;
+      height: 120px;
     }
     #carouselslide {
         top:50%;
@@ -147,18 +151,25 @@
     }
     #index_block1
     {
-      height:250px;
+      height:260px;
+      margin-top:5%;
+    }
+    #index_block1 .px-5
+    {
+      padding: 0%;
     }
     #index_block2
     {
       height:300px;
-      padding-top:1%;
+      padding-top:5%;
       padding-bottom:0%;
     }
     #index_block1 p
     {
+      font-size: 10px;
       text-align: left;
     }
+
     #index_block2 p
     {
       font-size: 10px;

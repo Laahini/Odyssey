@@ -106,6 +106,7 @@ figcaption{
     font-family: 'Kanit', sans-serif;
     border-radius: 50px;
     transform: translateY(-75%);
+    background: rgb(6, 17, 60, 0.8);
 }
 .lead{
   padding-left:10%;

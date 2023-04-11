@@ -139,22 +139,26 @@
       margin-top: 20px;
      }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 480px) {
    .card-circle{
-         width:300px;
-         height:290px;
+         width:220px;
+         height:220px;
     }
-  .card-circle .card-icon i{
-     font-size:50px;
-   }
-  .card-circle .card-icon i{
-      margin-top: 1%;
-     }
    .card-circle:nth-child(3){
          margin:auto;
          z-index:0;
          margin-top:2%;
          margin-bottom:2%;
+    }
+    .card-circle h5{
+      font-size: 30px;
+      margin:0%;
+    }
+    .card-circle .card-text{
+      font-size: 10px;
+    }
+    .card-circle a{
+      font-size: 12px;
     }
     .card-circle:nth-child(1){
           margin:auto;
@@ -167,26 +171,37 @@
          margin-top:2%;
          margin-bottom:2%;
     }
+    #secondary {
+        font-weight: 300;
+        font-size:16px;
+    }
+    .display-1{
+      font-size: 50px;
+    }
     #planets{
-      height:135vh;
+      height:85vh;
     }
     #tour_option_image {
-        height: 125px;
+        height: 105px;
         border-top-left-radius: 40px;
         border-bottom-left-radius: 40px;
-        width: 150px;
+        width: 120px;
     }
     .display-6{
-      font-size:16px;
+      font-size:12px;
       font-weight: bolder;
+      margin-top:5%;
     }
     .infoP{
-      font-size: 10px;
+      font-size: 8px;
+    }
+    #cardSpec{
+      padding:1%;
     }
     #icon {
         border-top-right-radius: 40px;
         border-bottom-right-radius: 40px;
-        height: 120px;
+        height: 105px;
     }
     #option_container{
       margin-bottom:0%;
