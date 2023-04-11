@@ -419,6 +419,13 @@ nav .btn:hover{
       grid-template-rows: auto auto auto auto;
       padding:1% 1%;
     }
+    .halfSplitGrid {
+        position: relative;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        padding: 0% 10%;
+    }
     .formAutoHalfSplit
     {
       display: grid;
