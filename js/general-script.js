@@ -39,12 +39,12 @@ if (currentTheme) {
 function change_images(current_theme) {
     if (current_theme == 'light') {
         try {
-            document.getElementById("footer_name").setAttribute("src", "img/OdysseyInGrey.png")
+            document.getElementById("footer_name").setAttribute("src", "img/OdysseyInBlack.png")
         } catch(e) {
             //pass
         }
         try {
-            document.getElementById("tour_footer_name").setAttribute("src", "../img/OdysseyInGrey.png")
+            document.getElementById("tour_footer_name").setAttribute("src", "../img/OdysseyInBlack.png")
         } catch(e) {
             //pass
         }
