@@ -8,6 +8,49 @@
 #border {
     border-bottom: 1px solid #999999;
 }
+#attribution p{
+  margin:0%;
+  padding-top:1%;
+}
+.downloadLink a{
+  background:#EEEEEE;
+  color: #06113C;
+  padding:15px 20px;
+  margin:5% auto;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+#photoRelease{
+  padding:5%;
+}
+#photoRelease a{
+  text-decoration: none;
+  color:rgb(6, 17, 60);
+  font-weight: 200;
+  font-family: 'Kanit', sans-serif;
+}
+#forms{
+  margin:0%;
+  padding-top:2%;
+  padding-bottom:2%;
+  background:#EEEEEE;
+  color:rgb(6, 17, 60);
+}
+#photoRelease a:hover{
+  font-size: 20px;
+}
+#photoRelease h4{
+  margin-bottom:5%;
+}
+#media{
+
+  color:white;
+  padding:5%;
+}
+#media p{
+  font-size: 16px;
+  line-height: 20px;
+}
 @media only screen and (min-width: 992px) {
     .carousel .carousel-item {
         height: 95vh;
@@ -125,6 +168,12 @@
   padding:2% 5%;
   border-radius:25px;
   border:5px solid #c41700;
+}
+#attribution{
+  background:#EEEEEE;
+  color:rgb(6, 17, 60);
+  margin-left: auto;
+  margin-right:auto;
 }
 #tsapicsBanner {
     position: relative;
