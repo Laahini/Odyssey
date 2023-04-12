@@ -46,13 +46,13 @@
     height:175px;
 }
 #helpful_link_1 {
-    border: 3px solid #ffbd4a;
+    border: 3px solid white;
 }
 #helpful_link_2 {
-    border: 3px solid #ff9249;
+    border: 3px solid white;
 }
 #helpful_link_3 {
-    border: 3px solid #ff6647;
+    border: 3px solid white;
 }
 .btn{
     border-radius: 8px;
@@ -62,6 +62,9 @@
     border: none;
     color: white;
     display: inline-block;
+}
+.nav-item .btn{
+  background-color: #FF8C32;
 }
 .btn:hover{
     background-color:rgb(6, 17, 60);

@@ -97,11 +97,7 @@ footer{
 }
 .text_logogradient {
     color: transparent;
-    background: linear-gradient(to right, #feca70, #fc924c, #fd401a);
-    background: -webkit-linear-gradient(to right, #feca70, #fc924c, #fd401a);
-    background: -moz-linear-gradient(to right, #feca70, #fc924c, #fd401a);
-    background: -ms-linear-gradient(to right, #feca70, #fc924c, #fd401a);
-    background: -o-linear-gradient(to right, #feca70, #fc924c, #fd401a);
+    background: linear-gradient(to right, #feca70, #fc924c, #FF8C32);
     background-clip: text;
     -webkit-background-clip: text;
     -ms-background-clip: text;
@@ -433,6 +429,13 @@ nav .btn:hover{
       grid-template-rows: auto auto auto auto;
       padding: 2% 2%;
       grid-gap: 1%;
+    }
+    .autoHalfSplitGrid
+    {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto auto auto;
+      
     }
     .threeFourthGrid
     {

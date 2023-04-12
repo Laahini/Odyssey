@@ -474,21 +474,28 @@
   #top_pic {
       display: block;
       width: 100%;
-      height: 75vh;
+      height: 50vh;
       object-fit: cover;
       object-position: 100% 0%;
   }
   #about_block1 {
-      height: 120px;
-      margin: 2.5% 0% 2.5% 0%;
+      height: 250px;
+      margin: auto;
   }
   #about_block2{
-    height: 350px;
+    height: 200px;
+    margin:0% 2%;
   }
-  #aboutBox{
-    height:100px;
-    font-size: 10px;
+  .aboutBox .Odyssey_rounded_image{
+    width:125px;
+    height:125px;
+    margin-left:5%;
+    margin-right: 5%;
   }
+  .aboutBox{
+    padding-top:5%;
+  }
+  .about
   .lead
   {
     padding:0%;
@@ -504,15 +511,17 @@
       top:50%;
       transform: translateY(-50%);
   }
+
   #creed{
     margin:5% auto;
+    border-radius: 20px;
   }
   #creed p{
     font-size:10px;
     font-weight: bolder;
   }
   #whatTSA{
-    margin:5% auto;
+    margin:0% auto;
     padding:5% 0%;
   }
   #whatTSA p{
@@ -522,13 +531,16 @@
     width:100%;
   }
   #tsapicsBanner{
-    height: 40vh;
+    height: 27vh;
   }
   #motto h2{
     font-size:30px;
   }
   #motto button{
     width:250px;
+  }
+  #mission{
+    border-radius: 20px;
   }
   #teachers .tcardContainer{
     margin:auto;
@@ -553,7 +565,54 @@
   .hide{
     display:none;
   }
+  .regimg{
+    width:100%;
+    margin:0%;
+    margin-bottom:2%;
+  }
   .oppHide{
     display:block;
   }
+  .display-2{
+    font-size: 40px;
+  }
+  #attribution a{
+      width:150px;
+      font-size:12px;
+  }
+  #attribution li{
+    font-size: 12px;
+  }
+  #attribution_link{
+    font-size:8px;
+    width:100px;
+  }
+  #whatTSA .btn{
+    width:150px;
+  }
+  .wrapper label div:first-child {
+      width: 100%;
+      line-height: 45px;
+      margin-left: 10px;
+      font-size: 1em;
+  }
+  .tip {
+      color: #f03768;
+      cursor: help;
+      position: relative;
+      overflow: visible;
+      font-family: monospace;
+      font-size: 0.5em;
+  }
+  .tip:after {
+      content: attr(data-tip);
+      background: #3E474F;
+      color: white;
+      width: 150px;
+      padding: 10px;
+      font-size: 0.5em;
+      bottom: 150%;
+      left: -50%;
+  }
+  
 }

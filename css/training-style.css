@@ -242,6 +242,10 @@ figcaption{
       object-fit: cover;
       object-position: 100% 0%;
   }
+  .display-2{
+    font-size: 40px;
+    padding-bottom:5%;
+  }
   .lead{
     padding-left:10%;
     padding-right: 10%;
@@ -263,12 +267,18 @@ figcaption{
   #classes{
     margin:5% 0%;
   }
+  #orbitalTraining h4{
+    font-size: 20px;
+  }
   #orbitalTraining .Odyssey_rounded_image
   {
     width:250px;
     height:250px;
     margin:auto;
-    margin-left:20%;
+    margin-left:0%;
+  }
+  #orbitalTraining {
+    text-align: center;
   }
   #howWork{
     border-radius: 20px;
@@ -276,5 +286,8 @@ figcaption{
     padding-bottom: 2%;
     padding-left:5%;
     padding-right: 5%;
+  }
+  .hide{
+    display:none;
   }
 }

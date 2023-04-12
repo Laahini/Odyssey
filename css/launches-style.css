@@ -89,6 +89,10 @@
     padding:10% 3%;
     font-size: 14px;
   }
+  #launchDescrip{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
   .Odyssey_rounded_image{
     width:100px;
     height: 100px;
@@ -110,5 +114,31 @@
     height: 50vh;
     object-fit: cover;
     object-position: 100% 0%;
+  }
+  #launch_tour1_explanation{
+    padding-left:5%;
+    padding-right:5%;
+  }
+  #launch_tour1_explanation .threeFourthGrid{
+    grid-row-gap: 4%;
+  }
+  .display-5{
+    font-size: 30px;
+    margin-bottom:2%;
+  }
+  #launch_tour2_explanation{
+    padding-left:5%;
+    padding-right:5%;
+  }
+  #launch_tour2_explanation .threeFourthGrid{
+    grid-row-gap: 4%;
+  }
+
+  #launch_tour3_explanation{
+    padding-left:5%;
+    padding-right:5%;
+  }
+  #launch_tour3_explanation .threeFourthGrid{
+    grid-row-gap: 4%;
   }
 }
