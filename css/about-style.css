@@ -12,6 +12,9 @@
   margin:0%;
   padding-top:1%;
 }
+.vidCover{
+  height:auto;
+}
 .downloadLink a{
   background:#EEEEEE;
   color: #06113C;
