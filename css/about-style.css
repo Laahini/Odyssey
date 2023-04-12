@@ -87,6 +87,10 @@
 }
 .odescrip{
   margin-top:8%;
+  color: #06113C;
+}
+.odescrip h4{
+  font-weight: bolder;
 }
 .regimg{
   width:100%;
@@ -98,7 +102,8 @@
   margin-bottom:0%;
 }
 #regionals2023{
-  background:#c41700;
+  background:#DDDDDD;
+  color:black;
 }
 .display-2
 {
@@ -614,5 +619,5 @@
       bottom: 150%;
       left: -50%;
   }
-  
+
 }

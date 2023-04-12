@@ -62,10 +62,11 @@
 .accordion-title,
 .accordion-select  {
     background-color: #ffffff;
-    color: #7f8787;
+    color: #06113C;
     width: 55px;
     height: auto;
     font-size: 18px;
+    font-weight: bolder;
 }
 
 .accordion-select {
