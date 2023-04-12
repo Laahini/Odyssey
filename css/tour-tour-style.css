@@ -23,8 +23,13 @@ fsttatbody {
     margin-top: 3%;
 }
 #cost {
-    min-height: 130px;
+    min-height: auto;
     border-bottom: 2px solid #999999;
+}
+#cost .display-5{
+  font-family: 'Archivo', sans-serif;
+  letter-spacing: 1.2px;
+  margin-bottom:0%;
 }
 #dates_and_schedule {
     min-height: 480px;
@@ -45,6 +50,10 @@ fsttatbody {
 }
 #stat {
     width: 33.33%;
+}
+#stat:hover{
+  background:#EEEEEE;
+  color:rgb(6, 17, 60);
 }
 .sub_navbar_background {
     background-color: #FF8C32;

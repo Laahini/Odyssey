@@ -31,7 +31,7 @@
 }
 .display-6
 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-weight: bolder;
   font-size: 25px;
   color: rgb(255, 140, 50);
@@ -81,6 +81,9 @@
 }
 #launch_tour3_explanation {
     display: none;
+}
+.display-5{
+  font-family: 'Kanit', sans-serif;
 }
 @media screen and (max-width:480px) {
   #launchDescrip a

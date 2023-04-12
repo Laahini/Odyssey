@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@200;400&family=Archivo+Black&display=swap');
 /*General Styles*/
 /*Apply across all webpages.*/
 nav{
@@ -9,6 +10,7 @@ nav{
 }
 p{
   font-size: 18px;
+  font-family: 'Anuphan', sans-serif;
 }
 .dropdown:hover .dropdown-menu {
     display: block;
@@ -84,16 +86,14 @@ footer{
     background-color: #FF8C32;
 }
 .text_Odyssey1 {
-    color: #ffbd4a;
-    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 140, 50);
+
 }
 .text_Odyssey2 {
     color: #ff9249;
-    font-family: 'Montserrat', sans-serif;
 }
 .text_Odyssey3 {
     color: #ff6647;
-    font-family: 'Montserrat', sans-serif;
 }
 .text_logogradient {
     color: transparent;
@@ -138,6 +138,7 @@ body {
     border: none;
     color: white;
     display: block;
+    font-family: 'Kanit', sans-serif;
 
 }
 .btn:hover{
@@ -194,7 +195,7 @@ nav .btn:hover{
   }
 
   .toggle input:checked + label:before {
-    /*Property below sets the color/background image of the circle when toggle is checked; i.e., light mode*/
+
     background-image: url(../img/light_mode_toggle.png);
     background-size: 100% 100%;
     background-color: white;
@@ -204,26 +205,27 @@ nav .btn:hover{
     background-color: rgb(221, 221, 221);
     color: rgb(6, 17, 60);
   }
-
-/*Toggle text & the space around the button styles*/
-          .toggle-text {
-            margin-left: 10px;
-          }
+  .toggle-text {
+    margin-left: 10px;
+    }
           .toggle {
             margin-left: 20px;
           }
      .toggle-text{
         color:white
      }
-  /*Light Mode/Dark Mode Styles*/
 
    body.light-theme{
     background-color:whitesmoke;
-    color:black
+    color:black;
    }
    footer.light-theme{
-    background-color: whitesmoke;
-    color:black
+    background-color: #06113C;
+    color:white;
+   }
+   hr.light-theme{
+     background-color: #06113C;
+     color:#06113C;
    }
 
 .dark-theme{
@@ -231,20 +233,9 @@ nav .btn:hover{
     color: white;
 }
 .main_pagetop_navbar_background {
-    /*Current Background for Navbar: lighter than the dark mode background*/
+
     background-color: #131c3d;
-    /*
-    Second Favored Background for Navbar: darker than the dark mode background
-    background-color: #1b1b1b;
-    */
-    /*
-    Third Favored Background for Navbar: gradient based on logo colors
-    background: linear-gradient(to right, #feca70, #fc924c, #fd401a);
-    background: -webkit-linear-gradient(to right, #feca70, #fc924c, #fd401a);
-    background: -moz-linear-gradient(to right, #feca70, #fc924c, #fd401a);
-    background: -ms-linear-gradient(to right, #feca70, #fc924c, #fd401a);
-    background: -o-linear-gradient(to right, #feca70, #fc924c, #fd401a);
-    */
+
 }
 
 .lead{
@@ -435,7 +426,7 @@ nav .btn:hover{
       display: grid;
       grid-template-columns: auto;
       grid-template-rows: auto auto auto auto;
-      
+
     }
     .threeFourthGrid
     {
