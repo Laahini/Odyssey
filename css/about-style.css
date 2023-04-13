@@ -177,6 +177,12 @@
   border-radius:25px;
   border:5px solid #c41700;
 }
+#creed h1{
+  font-family: 'Kanit';
+}
+#regionals2023 h1{
+  font-family: 'Kanit';
+}
 #attribution{
   background:#EEEEEE;
   color:rgb(6, 17, 60);
@@ -376,6 +382,10 @@
     color:rgb(6, 17, 60);
     margin-bottom:0%;
 }
+.wrapper h2{
+  font-family:'Kanit';
+  font-size: 50px;
+}
 
 .wrapper input {
     display: none;
@@ -422,6 +432,10 @@
   margin-bottom: 0%;
   margin-top: 0%;
   padding-top:0%;
+}
+#projectCarousel h1{
+  font-size:50px;
+  font-family: 'Kanit';
 }
 .cross:before,.cross:after {
     content: '';
@@ -589,7 +603,7 @@
     padding:5% 0%;
   }
   #whatTSA p{
-    font-size:9px;
+    font-size:10px;
   }
   #whatTSA img{
     width:100%;
@@ -657,6 +671,9 @@
   }
   #whatTSA .btn{
     width:150px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-bottom:5%;
   }
   .wrapper label div:first-child {
       width: 100%;
@@ -681,6 +698,9 @@
       font-size: 0.5em;
       bottom: 150%;
       left: -50%;
+  }
+  .wrapper h2, #projectCarousel h1{
+    font-size: 30px;
   }
 
 }
