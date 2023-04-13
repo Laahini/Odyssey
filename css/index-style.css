@@ -18,6 +18,9 @@
 #index_block1 {
     height: 320px;
 }
+#indexcarousel .lead{
+  font-size:24px;
+}
 #index_block2 {
     height: 320px;
     margin: 0% 0% 0% 0%;

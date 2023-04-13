@@ -50,6 +50,8 @@ fsttatbody {
 }
 #stat {
     width: 33.33%;
+    border-radius: 20px;
+    margin:0% 1%;
 }
 #stat:hover{
   background:#EEEEEE;
@@ -154,6 +156,7 @@ h5{
   }
   #stat{
     border: 1px solid black;
+
   }
   #tour_stats {
       min-height: 200px;
