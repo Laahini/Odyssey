@@ -15,6 +15,7 @@
 
 .accordion-title {
     position: relative;
+
 }
 
 .accordion-title:not(:nth-last-child(2))::after {
@@ -67,11 +68,13 @@
     height: auto;
     font-size: 18px;
     font-weight: bolder;
+
 }
 
 .accordion-select {
     margin-bottom: -65px;
     margin-right: -55px;
+
 }
 
 .accordion-title:not(:nth-last-child(2))::after {
@@ -81,7 +84,9 @@
 
 .accordion-select:hover + .accordion-title,
 .accordion-select:checked + .accordion-title {
-    background-color: #ffffff;
+    background-color: #c41700;
+    color:white;
+    
 }
 
  .accordion-title span  {
