@@ -137,6 +137,10 @@
          margin-left:0%;
          z-index:0;
     }
+    .card-circle .btn{
+       font-size:10px;
+       width:100px;
+   }
      .card-circle{
          width:400px;
          height:400px;
@@ -177,6 +181,9 @@
           margin-top:2%;
           margin-bottom:2%;
      }
+     .card-circle .card-title{
+         font-size:22px;
+    }
    .card-circle:nth-child(2){
          margin:auto;
          z-index:1;
