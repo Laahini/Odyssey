@@ -137,10 +137,7 @@
          margin-left:0%;
          z-index:0;
     }
-    .card-circle .btn{
-       font-size:10px;
-       width:auto;
-   }
+
      .card-circle{
          width:400px;
          height:400px;
@@ -174,8 +171,11 @@
       font-size: 10px;
     }
     .card-circle a{
-      font-size: 12px;
+      font-size: 10px;
     }
+    .card-circle .btn{
+       width:auto;
+   }
     .card-circle:nth-child(1){
           margin:auto;
           margin-top:2%;
