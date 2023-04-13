@@ -152,8 +152,8 @@
 }
 @media only screen and (max-width: 480px) {
    .card-circle{
-         width:190px;
-         height:190px;
+         width:195px;
+         height:150px;
     }
 
    .card-circle:nth-child(3){
@@ -203,7 +203,7 @@
       font-size: 50px;
     }
     #planets{
-      height:94vh;
+      height:92vh;
     }
     #tour_option_image {
         height: 110px;
