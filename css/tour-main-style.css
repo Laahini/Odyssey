@@ -139,7 +139,7 @@
     }
     .card-circle .btn{
        font-size:10px;
-       width:100px;
+       width:auto;
    }
      .card-circle{
          width:400px;
