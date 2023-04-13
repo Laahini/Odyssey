@@ -154,8 +154,8 @@
 }
 @media only screen and (max-width: 480px) {
    .card-circle{
-         width:220px;
-         height:220px;
+         width:200px;
+         height:200px;
     }
    .card-circle:nth-child(3){
          margin:auto;
